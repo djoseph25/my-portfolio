@@ -1,36 +1,11 @@
 ## Setup Notes
 
-1. All components ready to go (including imports)
-2. Use main.css - less imports
-3. Limit amount of components - better overview
-4. React Icons
+1. I create this Porfolio using gatsby so I can get some extra Practice using it instead of create react APP,
 
-[react icons] :https://react-icons.github.io/react-icons/
+2. I will have a Project Page where I will show all my Project and a featured project pages where I will show My Favorite Projects
 
-```javascript
-import { FaHome } from "react-icons/fa"
-const Component = () => {
-  return <FaHome className="icon"></FaHome>
-}
-```
+3. Include all the links to my social media and my resume.
 
-5. Use constants to avoid repetition.
-6. In order to follow along with the video use my backend (url below)
+4. Contact Page I will will form spree to collect all the data.
 
-   [strapi backend]:https://github.com/john-smilga/strapi-gatsby-porfolio-2020-api
-
-7. Make sure such content-types exist in your Strapi application. Or replace/delete them in gatsby-config.js
-
-```javascript
-{
-      resolve: `gatsby-source-strapi`,
-      options: {
-        apiURL: `http://localhost:1337`,
-        queryLimit: 1000, // Default to 100
-        // contentTypes: [`jobs`, `projects`, `blogs`, ],
-        //singleTypes:[`about` ]
-        contentTypes: [`jobs`, `projects`, `blogs`],
-        singleTypes: [`about`],
-      },
-    },
-```
+5. I will use strapi as my backend and Api for my projects.
