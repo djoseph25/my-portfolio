@@ -38,7 +38,6 @@ const links = data.map(link => {
   return (
     <li key={link.id}>
       <a href={link.url} className="social-link">
-        <img src={link.src}/>
         {link.icon}
       </a>
     </li>
