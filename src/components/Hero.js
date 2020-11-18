@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import SocialLinks from "../constants/socialLinks"
 
-// I Decided to not add a picture
 const Hero = () => {
   return (
     <header className="hero">
@@ -17,8 +16,11 @@ const Hero = () => {
           Contact Me
         </Link>
         <div className="links">
-          <SocialLinks />
+          <SocialLinks /> 
         </div>
+        {/* <a href="https://resume.io/r/9XPrT1iEZ">Resume</a>
+        <img src={CV} /> */}
+       
       </article>
     </header>
   )

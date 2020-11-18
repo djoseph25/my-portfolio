@@ -428,11 +428,13 @@ Hero
 }
 .role {
   text-align: center;
-  font-size: 26px;
+  font-size: 24px;
+  
 }
 
 .links {
   margin-left: 31%;
+  display: flex;
 }
 
 /*
@@ -683,7 +685,7 @@ Contact Page
 .contact-page {
   display: grid;
   place-items: center;
-  padding: 5rem 0;
+  padding: 7rem 0;
 }
 .contact-form {
   background: var(--clr-white);
