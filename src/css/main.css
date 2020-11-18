@@ -54,7 +54,7 @@ Global Styles
 ===============
 */
 
-*,
+
 ::after,
 ::before {
   margin: 0;
@@ -406,7 +406,11 @@ Hero
 ===============
 */
 /* underline added to globals */
-
+/* @media screen and (min-width:731px) {
+  .hero{
+   margin-top:-5rem;
+  }
+} */
 .hero {
   display: flex;
   height: 90vh;
@@ -433,8 +437,12 @@ Hero
 }
 
 .links {
-  margin-left: 31%;
-  display: flex;
+	display: flex;
+}
+
+.links-center {
+	justify-content: center;
+margin-left: -36px;
 }
 
 /*

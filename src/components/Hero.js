@@ -15,11 +15,9 @@ const Hero = () => {
           {" "}
           Contact Me
         </Link>
-        <div className="links">
-          <SocialLinks /> 
-        </div>
-        {/* <a href="https://resume.io/r/9XPrT1iEZ">Resume</a>
-        <img src={CV} /> */}
+          <div class="links links-center">
+            <SocialLinks />
+          </div>
        
       </article>
     </header>
