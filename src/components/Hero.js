@@ -6,19 +6,18 @@ const Hero = () => {
   return (
     <header className="hero">
       <article className="articles">
-        <h2 className="name">I'm David</h2>
+        <h2 className="name">I'm David Joseph.</h2>
         <p className="role">
-          {" "}
-          I'm a Full Stack Web Developer out of Orlando Florida
+          I'm a Web Developer based in Orlando, Florida. I make web applications and
+          sites using modern development tools.
         </p>{" "}
         <Link to="/contact" className="btn center-btn">
           {" "}
           Contact Me
         </Link>
-          <div class="links links-center">
-            <SocialLinks />
-          </div>
-       
+        <div class="links links-center">
+          <SocialLinks />
+        </div>
       </article>
     </header>
   )

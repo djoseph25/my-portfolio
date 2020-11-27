@@ -12,9 +12,10 @@ const Projects = ({ projects, title, showLink }) => {
         })}
       </div>
       {showLink && (
-        <Link to="/projects" className="btn center-btn">
+        <Link target={"_blank"} to="/projects" className="btn center-btn">
           projects
         </Link>
+        
       )}
     </section>
   )
