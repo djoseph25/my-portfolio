@@ -22,9 +22,9 @@ const About = ({data:{about:{nodes}}}) => {
             </div>
           </article>
         </div>
-        <h1 style={{ fontSize: 21, paddingTop: 35 }}>
+        {/* <h1 style={{ fontSize: 21, paddingTop: 35 }}>
           <a href="https://resume.io/r/9XPrT1iEZ">View resume</a>
-        </h1>
+        </h1> */}
       </section>
     </Layout>
   )

@@ -8,7 +8,7 @@ const Hero = () => {
       <article className="articles">
         <h2 className="name">I'm David Joseph.</h2>
         <p className="role">
-          I'm a Web Developer based in Orlando, Florida. I make web applications and
+          I'm a Full Stack Web Developer based in Orlando, Florida. I make web applications and
           sites using modern development tools.
         </p>{" "}
         <Link to="/contact" className="btn center-btn">
